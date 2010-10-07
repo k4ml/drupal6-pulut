@@ -1,0 +1,185 @@
+# $Id: openid_provider.pot,v 1.1.2.2 2010/02/15 21:13:15 walkah Exp $
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  openid_provider.pages.inc,v 1.5 2010/02/15 20:40:18 walkah
+#  openid_provider.module,v 1.11 2010/02/15 20:40:18 walkah
+#  openid_provider.info,v 1.5 2010/02/15 20:42:46 walkah
+#  openid_provider.install,v 1.4 2010/02/14 16:20:20 walkah
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-02-15 15:49-0500\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: openid_provider.pages.inc:42
+msgid "This is the OpenID page for %user."
+msgstr ""
+
+#: openid_provider.pages.inc:59
+msgid "Session expired"
+msgstr ""
+
+#: openid_provider.pages.inc:97
+msgid "Those are the sites you have used your OpenID on. Access control determines determines if you will be asked for approval when login into those sites using your OpenID. You can also completely deny access to those sites if you think they are malicious."
+msgstr ""
+
+#: openid_provider.pages.inc:102
+msgid "Update"
+msgstr ""
+
+#: openid_provider.pages.inc:133
+msgid "Settings saved."
+msgstr ""
+
+#: openid_provider.pages.inc:144
+msgid "Auto release"
+msgstr ""
+
+#: openid_provider.pages.inc:144
+msgid "Site"
+msgstr ""
+
+#: openid_provider.pages.inc:144
+msgid "Last access"
+msgstr ""
+
+#: openid_provider.module:132 openid_provider.info:0
+msgid "OpenID"
+msgstr ""
+
+#: openid_provider.module:137
+msgid "Identity"
+msgstr ""
+
+#: openid_provider.module:138
+msgid "You may login to other OpenID enabled sites using %url"
+msgstr ""
+
+#: openid_provider.module:163
+msgid "Associations expire in this many seconds"
+msgstr ""
+
+#: openid_provider.module:167
+msgid "This timeout is necessary to ensure proper security of your identities. If an attacker sniffing the network gets a hold of the SHA1 hash and is somehow able to bruteforce it, he can perform a man in the middle attack and access the target site. Since brute force attacks take a long time, this timeout ensures this attack is impracticable. !readmore"
+msgstr ""
+
+#: openid_provider.module:167
+msgid "More information about this issue."
+msgstr ""
+
+#: openid_provider.module:229
+msgid "You are being logged into %site, would you like to continue?"
+msgstr ""
+
+#: openid_provider.module:236
+msgid "Yes; just this once"
+msgstr ""
+
+#: openid_provider.module:240
+msgid "Yes; always"
+msgstr ""
+
+#: openid_provider.module:245
+msgid "Cancel"
+msgstr ""
+
+#: openid_provider.module:294
+msgid "OpenID Provider settings"
+msgstr ""
+
+#: openid_provider.module:295
+msgid "Pattern for OpenID provider identity paths"
+msgstr ""
+
+#: openid_provider.module:296
+msgid "users/[user-raw]/openid"
+msgstr ""
+
+#: openid_provider.module:306
+msgid "Bulk generate aliases for identity paths that are not aliased"
+msgstr ""
+
+#: openid_provider.module:307
+msgid "Generate aliases for all existing identity paths which do not already have aliases."
+msgstr ""
+
+#: openid_provider.module:331
+msgid "Bulk generation of OpenID Provider paths completed, one alias generated."
+msgid_plural "Bulk generation of OpenID Provider paths completed, @count aliases generated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: openid_provider.module:67
+msgid "administer openid provider"
+msgstr ""
+
+#: openid_provider.module:14
+msgid "OpenID Provider"
+msgstr ""
+
+#: openid_provider.module:15
+msgid "Configure settings for the OpenID Provider."
+msgstr ""
+
+#: openid_provider.module:22;29;36
+msgid "OpenID login"
+msgstr ""
+
+#: openid_provider.module:43
+msgid "OpenID Page"
+msgstr ""
+
+#: openid_provider.module:46
+msgid "Menu callback with full access so no forbiddens are given from server requests"
+msgstr ""
+
+#: openid_provider.module:52
+msgid "OpenID sites"
+msgstr ""
+
+#: openid_provider.install:25
+msgid "Tracks relying parties a give user has authenticated."
+msgstr ""
+
+#: openid_provider.install:36
+msgid "The {users}.uid that has authenticated this relying party."
+msgstr ""
+
+#: openid_provider.install:43
+msgid "The OpenID realm of the authenticated relying party."
+msgstr ""
+
+#: openid_provider.install:49
+msgid "Timestamp of the first time this relying party was accessed."
+msgstr ""
+
+#: openid_provider.install:55
+msgid "Timestamp of the most recent access"
+msgstr ""
+
+#: openid_provider.install:61
+msgid "Whether or not to automatically release this relying party."
+msgstr ""
+
+#: openid_provider.install:69
+msgid "Stores current associaitons with relying parties."
+msgstr ""
+
+#: openid_provider.info:0
+msgid "Openid Provider"
+msgstr ""
+
+#: openid_provider.info:0
+msgid "OpenID Provider (or server) support allows you to login to other OpenID enabled sites using your local account."
+msgstr ""
+

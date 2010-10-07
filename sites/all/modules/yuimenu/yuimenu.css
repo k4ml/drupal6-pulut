@@ -1,0 +1,6 @@
+#yuimenu ul li
+{
+	position: relative;
+	z-index: 999;
+	background-image: none;
+}

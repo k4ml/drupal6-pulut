@@ -1,0 +1,85 @@
+# $Id: ja.po,v 1.1.2.1 2008/04/12 14:50:42 imagine Exp $
+# -----------------------------------------------------------------------------
+# Japanese translation of Drupal (modules-yuimenu)
+#
+# Copyright (c) 2006-2008  Drupal Japan  ( http://drupal.jp/ )  /
+#                          Takafumi      ( jp.drupal@imagine **reverse order**)
+#
+# Generated from file:
+#  yuimenu.module,v 1.8 2008/03/20 18:38:38 bakyildiz
+#  yuimenu.info,v 1.4 2008/03/20 18:38:38 bakyildiz
+#
+# -----------------------------------------------------------------------------
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2008-04-09 18:46+0900\n"
+"Last-Translator: Takafumi <jp.drupal@imagine **reverse order**>\n"
+"Language-Team: Drupal Japan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: yuimenu.module:15
+msgid "YUI based drop down Menu."
+msgstr "YUIベースのドロップダウンメニューです。"
+
+#: yuimenu.module:18
+msgid "<p>A module to have a css/javascript based drop down and javascript based pop-up menu for site navigation.</p>"
+msgstr "YUImenuモジュールは、css/javascriptベースのドロップダウンメニューと、javascriptベースのポップアップメニューを、サイトナビゲーション用に提供します。"
+
+#: yuimenu.module:30
+msgid "Root of Menu Tree"
+msgstr "メニューツリーのルート"
+
+#: yuimenu.module:31
+msgid "Select the root item of menu tree."
+msgstr "メニューツリーのルート項目を指定してください。"
+
+#: yuimenu.module:38
+msgid "Menu Display type"
+msgstr "メニューの表示タイプ"
+
+#: yuimenu.module:39
+msgid "Select the display type of the menu."
+msgstr "メニューの表示タイプを指定してください。"
+
+#: yuimenu.module:41
+msgid "Website Top  Nav With Submenus From JavaScript"
+msgstr "JavaScriptによるサブメニューを備えたサイト上部のナビゲーション"
+
+#: yuimenu.module:42
+msgid "Website Top  Nav With Submenus Built From Markup"
+msgstr "マークアップによって構築されたサブメニューを備えたサイト上部のナビゲーション"
+
+#: yuimenu.module:43
+msgid "Website Left Nav With Submenus From JavaScript"
+msgstr "JavaScriptによるサブメニューを備えたサイト左部のナビゲーション"
+
+#: yuimenu.module:48
+msgid "Animated Menu"
+msgstr "アニメーションメニュー"
+
+#: yuimenu.module:49
+msgid "To enable animation while opening menu check this."
+msgstr "メニューをアニメーションさせるかどうかを指定してください。 チェックを入れると、メニューを開く際に動きが加わります。"
+
+#: yuimenu.module:91
+msgid "YUI Menu Settings"
+msgstr "YUIメニューの設定"
+
+#: yuimenu.module:449 yuimenu.info:0
+msgid "YUI Menu"
+msgstr "YUIメニュー"
+
+#: yuimenu.module:0
+msgid "yuimenu"
+msgstr "yuimenu"
+
+#: yuimenu.info:0
+msgid "YUI Menu Component"
+msgstr "YUIメニューコンポーネント"
+
+#: yuimenu.info:0
+msgid "Yahoo YUI"
+msgstr "Yahoo YUI"

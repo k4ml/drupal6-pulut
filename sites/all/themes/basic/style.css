@@ -1,0 +1,118 @@
+/* $Id: style.css,v 1.1.4.3 2008/11/22 00:53:22 stevek Exp $
+*/
+
+/**
+ *
+ * ABOUT
+ *
+ * Style.css is the first custom stylesheet called in the CSS order (for the remaining stylesheets, see the .info file).
+ * Please place commonly used CSS snippets here. Otherwise, place design specific styles in css/main.css
+ */
+
+/* Simple Layout reset */
+
+* { margin: 0; padding: 0; }
+
+/*
+* Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+* Code licensed under the BSD License:
+* http://developer.yahoo.net/yui/license.txt
+* version: 2.6.0
+* http://developer.yahoo.com/yui/reset/
+*/
+
+/* Uncomment to activate YUI CSS reset, YUI CSS Reset is designed to cancel all basics css styles applyed by field across A-grade browsers by default
+
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+del,ins{text-decoration:none;}
+*/
+
+/**
+ * How To Clear Floats Without Structural Markup: 
+ * http://www.positioniseverything.net/easyclearing.html
+ * 
+ */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+/* clear classes for content */
+
+.clearleft { clear: left; }
+
+.clearright { clear: right; }
+
+.clearboth { clear: both; }
+
+/* Float classes for images */
+
+.floatleft { float: left; margin: 0 10px 5px 0 !important; }
+
+.floatright { float: right; margin: 0 0 5px 10px !important; }
+
+.floatleft .caption { font-size: 10px; font-weight: bold; text-transform: uppercase; padding-top: 5px; }
+
+/* "Skip to Main Content" link
+*
+* This link useful for both visually impaired people and those with mobility impairments
+* who cannot use a mouse.
+*/
+
+#skip-nav { display: none; }
+
+#skip-nav a, #skip-nav a:hover, #skip-nav a:visited {
+  position: absolute;
+  left: 0;
+  top: -500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+#skip-nav a:active, #skip-nav a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+/** Prevent overflowing content **/
+
+#header,
+#content,
+#sidebar-left,
+#sidebar-right,
+#footer {
+  overflow: visible;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+/* bug fix with views 2 edit links */
+
+div.view div.views-admin-links {
+	width:auto;
+}
